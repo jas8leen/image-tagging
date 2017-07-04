@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Tagging - By Jasleen Kaur</title>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="/lib/img-tagging.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style/img-tagging-default.css">
+
+</head>
+
+  <body>
+    <div class="container" id="container-wrapper">
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>Image Tagging Module POC</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="img-tag-container">
+            <div class="img-tag-buttons">
+                <button input="button" class="btn btn-default img-tag-save">Save</button>
+                <button input="button"  class="btn btn-default img-tag-cancel">Cancel</button>
+            </div>
+            <div class="img-tag-creator-container" style="display:'none'">
+              <input class="img-tag-search" type="text">
+              <div class="img-tag-hover-creator">
+              </div>
+            </div>
+            <div class="img-tag-hover-container" style="display:'none'">
+            </div>
+          </div>
+
+          <img id="example-image" src="/style/img-tag-example1.jpg" />
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
