@@ -20,11 +20,13 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width:20px;
-	height:20px;
-	border: 1px solid #D7C7C7;
+	background-color: #fff;
 }
-
+.image-tag-box{
+	border: 1px solid #D7C7C7;
+	width: 20px;
+	height: 20px;
+}
 .img-tag-search{
 	margin-top:20px;
 	width: 125px;
@@ -48,17 +50,6 @@
 	margin: 10px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 #imgTag-container{
   padding: 100px;
   display: table;
@@ -68,9 +59,6 @@
 	  width: 800px;
 	  height: 500px; 
 }
-
-
-
 .selectedDropdown{
 	background-color:whitesmoke;
 }
@@ -124,4 +112,8 @@
 }
 .hoverShow{
 	position: absolute;
+}
+
+a{
+	color: black;
 }
