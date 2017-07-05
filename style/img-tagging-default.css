@@ -1,11 +1,24 @@
 #container-wrapper {
-	margin-top: 70px;
+	margin-top: 10px;
 	height: 400px;
 	width: 700px;
 }
 
 .img-tag-container {
 	margin: 0px;
+}
+
+.img-tag-popup {
+	width:250px;
+	margin:5px;
+	background-color: white;
+	padding: 2px;
+	padding-bottom: 8px;
+	border: 1px solid #D7C7C7;
+}
+
+.img-tag-label{
+	width:70px;
 }
 
 .img-tag-container .img-tag-img {
@@ -20,7 +33,6 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #fff;
 }
 .image-tag-box{
 	border: 1px solid #D7C7C7;
@@ -28,8 +40,8 @@
 	height: 20px;
 }
 .img-tag-search{
-	margin-top:20px;
-	width: 125px;
+	width: 200px;
+	margin-bottom: 10px;
 }
 
 

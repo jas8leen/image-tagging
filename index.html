@@ -24,27 +24,35 @@
               </div>
               <div class="img-tag-creator-container" style="display:'none'">
                   <div class="image-tag-box"></div>
-                 <div class="row">
-                 <div class="col-md-12">
-                     <label>Name:</label>
-                      <input class="img-tag-search" type="text">
-                 </div>
-                 <div class="col-md-12">
-                      <label>Url:</label>
-                      <input class="img-tag-search" type="text">
+                  <div class="img-tag-popup row">
+                    <form name="savePosition">
+                      <div class="col-md-12">
+                        <label for="popup-name" class="img-tag-label">Name:</label>
+                        <input class="form-control img-tag-search" id="popup-name" name="popup-name" type="text"/>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="popup-url" class="img-tag-label">Link:</label>
+                        <input class="form-control img-tag-search" id="popup-url" name="popup-url"  type="text"/>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="popup-imageUrl" class="img-tag-label">Image Url:</label>
+                        <input class="form-control img-tag-search" id="popup-imageUrl" name="popup-imageUrl" type="text"/>
+                      </div>
+                      <div class="col-md-6">
+                        <button class="position-save btn btn-default" id="savePopup" name="save" type="button">Save</button>
+                      </div>
+                      <div class="col-md-6">
+                        <button class="position-save  btn btn-default" id="cancelPopup" name="cancel" type="button">Cancel</button>
+                      </div>
+                    </form>
                   </div>
-                  <div class="col-md-12">
-                      <label>ImageUrl:</label>
-                      <input class="img-tag-search" type="text">
-                  </div>
-              </div>
-                 <div class="img-tag-hover-creator">
+                  <div class="img-tag-hover-creator">
                   </div>
               </div>
               <div class="img-tag-hover-container" style="display:'none'">
               </div>
           </div>
-          <img id="example-image" src="style/img-tag-example1.jpg" />
+          <img id="example-image" width="540px" height="540px" src="style/img-tag-example2.jpg" />
       </div>
   </div>
   </div>
